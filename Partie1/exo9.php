@@ -16,6 +16,10 @@ elseif ($age >=18 && $age <=35 && $sexe == "F"){
 
 else echo "la personne n'est pas imposable";
 
+if (($age >=20 && $sexe == "M") || ($age >=18 && $age <=35 && $sexe == "F")) {
+    echo "la personne est imposable";
+} else echo "la personne n'est pas imposable";
+
 
 
 

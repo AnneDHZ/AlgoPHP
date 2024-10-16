@@ -8,9 +8,10 @@
 
 
 
-$phrase1 = "engage le jeu que je le gagne";
+$phrase1 = "Engage le jeu que je le gagne";
 
 function est_palindrome($phrase1) {
+    $phrase1 = strtolower ($phrase1);
     $phrase1 = str_replace(' ', '', $phrase1);
     $inversion = strrev($phrase1);
     return $phrase1 === $inversion;
@@ -19,7 +20,7 @@ function est_palindrome($phrase1) {
 if (est_palindrome($phrase1)) {
     echo "La phrase «$phrase1 » est un palindrome.<br>";
 } else {
-    echo "";
+    echo "La phrase «$phrase1 »  n'est pas un palindrome.<br>";
 }
 
 

@@ -20,9 +20,7 @@ $salutation = "";
 function saluer($personnes) {
     ksort($personnes); // pour ranger les salutations par ordre alphabétique
     foreach ($personnes as $prenom => $langue) {
-        
-
-    switch ($langue) {
+        switch ($langue) {
             case 'Francais':
                 $salutation = "Bonjour";
                 break;

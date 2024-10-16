@@ -12,8 +12,8 @@ $marques_voitures = ["Peugeot", "Renault", "BMW", "Mercedes"];
 echo "il y a ". count($marques_voitures). " marques de voitures dans le tableau :<br> ";
 
 echo "<ul>";
-foreach ($marques_voitures as $key => $value) {
-    echo "<li>". $value. "</li>";
+foreach ($marques_voitures as $marque) {
+    echo "<li>". $marque. "</li>";
 };
 
 echo "</ul>";

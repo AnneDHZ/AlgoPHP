@@ -29,9 +29,11 @@ $pieces2 =intdiv($rendu, 2);
 $rendu = ($rendu - $pieces2 * 2);
 echo "$pieces2 pièces de 2€ - ";
 
+
 $pieces1 =intdiv($rendu, 1);
-$rendu = ($rendu - $pieces1 * 1);
-echo "$pieces2 pièces de 1€ - ";
+echo "$pieces1 pièces de 1€ - ";
+
+
 
 
 
