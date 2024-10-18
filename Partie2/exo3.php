@@ -7,7 +7,7 @@ dans un nouvel onglet (_blank)<br>
 
 <?php
 
-echo "<p><a href = https://elan-formation.fr/accueil target='_blanck'> Lien vers Elan</a> </p>";
+echo "<p><a href = https://elan-formation.fr/accueil target='_blank'> Lien vers Elan</a> </p>";
 
 
 
