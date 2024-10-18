@@ -39,15 +39,16 @@ function afficherTableauHTML($capitales){
                         </tr>
                     </thead>  
                   <tbody>";
+                  // tous les éléments que l'on veut 1 fois doivent être en dehors de la boucle foreach
     foreach ($capitales as $pays => $capitale) {
         $resultat .="<tr>
                         <td>".mb_strtoupper($pays)."</td>
                         <td>".ucfirst($capitale)."</td>
                         <td><a target='blank' href='https://fr.wikipedia.org/wiki/$capitale'>Lien wiki</a></td>  
                     </tr>";
-                  }     
-    $resultat .= "</tbody>
-                </table>";        
+                  }    // on ferme la boucle 
+    $resultat .= "</tbody>    
+                </table>";        // elements qui ferme le tableau (en dehors de la boucle)
                 
     return $resultat;
 
