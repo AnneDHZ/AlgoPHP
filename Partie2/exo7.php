@@ -25,13 +25,15 @@ function genererCheckbox($elements){
             $resultat .= "<div>
                             <input type='checkbox' id ='$choix' name='$choix'/>
                             <label for='$choix'>$choix</label>
-                           </div> ";
+                           </div> ";  //les <div> font office de <br>
       }
       $resultat .="</form>";
         return $resultat;                                    
-      
-
 };
+
+
+// penser à mettre } de fermeture de boucle AVANT $resultat .="</form>";
+// puis ensuite le return
 
    
 
