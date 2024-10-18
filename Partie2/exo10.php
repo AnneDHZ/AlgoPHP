@@ -37,7 +37,7 @@ function afficherRadio($elements){
 
       foreach ($elements as $choix){
             $resultat .= "<div>
-                            <input type='radio' id ='$choix' name='$choix'/>
+                            <input type='radio' id ='$choix' name='sexe'/>
                             <label for='$choix'>$choix</label>
                            </div> ";  //les <div> font office de <br>
       }
