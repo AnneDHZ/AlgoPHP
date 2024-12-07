@@ -12,8 +12,5 @@ PHP
 💡 Concepts clés abordés
 Les alogrithmes en PHP
 
-📦 Installation
-git clone [url-du-repo]
-
 📚 Ressources
-Exercice réalisé dans le cadre de la formation [Elan Formation]
+Exercice réalisé dans le cadre de la formation Elan Formation
